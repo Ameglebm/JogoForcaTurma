@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=H5oov1AbKCsK&format=png&color=000000" type="image/x-icon">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;    
+            font-family: 'Comic Neue', cursive;     
+        }
+        #main {
+            
+            display: flex;
+            justify-content: center;
+            
+        }
+        #img-erro{
+            width: 60%;
+            height: 70%;
+        }
+        .container-nav{
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            display: flex;
+        }
+        #nav{
+            height: 50px;
+            width: 20%;
+            display: flex;
+            justify-content: center;       
+            align-items: center;   
+            list-style-type: none;
+        }
+        #nav:hover{
+            background-color: rgba(73, 73, 73, 0.603);
+        }
+        .nav-item{
+            
+            text-decoration: none;
+            background-color: rgb(55, 180, 253);
+            color: white;
+            padding: 10px;         
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .nav-item:hover{
+            background-color: rgba(55, 180, 253, 0.801);
+            color: rgba(255, 255, 255, 0.63);
+        }
+        #footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+        }
+        #tittle-li{
+            width: 80%;
+            display: flex;
+            
+        }
+        #title{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="container-nav">
+            <li id="nav"><a class='nav-item' href="./main.html">Pagina Inicial</a></li>
+        </ul>
+    </header>
+    <div id="main">
+        <img id='img-erro'src="./imagens/erro404.jpg" alt="ERRO 404">
+    </div>
+    <footer id="footer"><a href="https://br.freepik.com/vetores-gratis/erro-desenhado-manualmente-404_1587605.htm#query=erro%20404&position=11&from_view=keyword&track=ais_user&uuid=f1ba89bc-4e74-43b8-a8de-4229d7cdef68" style="text-decoration: none;">Imagem de Freepik</a></footer>
+</body>
+</html>
