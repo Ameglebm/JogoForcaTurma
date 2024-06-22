@@ -1,5 +1,2 @@
 # JogoForcaTurma
-Jogo de focar na turma ADS
-Mateus 
-oi é o alisson
-ok
+Jogo de forca na turma ADS
